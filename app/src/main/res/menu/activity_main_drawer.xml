@@ -4,102 +4,144 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
+        <!-- Currency -->
         <item
             android:id="@+id/nav_currency"
             android:icon="@drawable/ic_currency"
-            android:title="@string/menu_currency" />
+            android:title="Currency" />
         <item
             android:id="@+id/nav_fragments"
             android:icon="@drawable/ic_fragments"
-            android:title="@string/menu_fragments" />
+            android:title="Fragments" />
         <item
-            android:id="@+id/nav_delirium_orbs"
-            android:icon="@drawable/ic_delirium_orbs"
-            android:title="@string/menu_delirium_orbs" />
+            android:id="@+id/nav_coffins"
+            android:icon="@drawable/ic_coffins"
+            android:title="Coffins" />
         <item
-            android:id="@+id/nav_watchstones"
-            android:icon="@drawable/ic_watchstones"
-            android:title="@string/menu_watchstones" />
+            android:id="@+id/nav_allflame_embers"
+            android:icon="@drawable/ic_allflame_embers"
+            android:title="Allflame Embers" />
         <item
-            android:id="@+id/nav_oils"
-            android:icon="@drawable/ic_oils"
-            android:title="@string/menu_oils" />
+            android:id="@+id/nav_tattoos"
+            android:icon="@drawable/ic_tattoos"
+            android:title="Tattoos" />
         <item
-            android:id="@+id/nav_incubators"
-            android:icon="@drawable/ic_incubators"
-            android:title="@string/menu_incubators" />
-        <item
-            android:id="@+id/nav_scarabs"
-            android:icon="@drawable/ic_scarabs"
-            android:title="@string/menu_scarabs" />
-        <item
-            android:id="@+id/nav_fossils"
-            android:icon="@drawable/ic_fossils"
-            android:title="@string/menu_fossils" />
-        <item
-            android:id="@+id/nav_resonators"
-            android:icon="@drawable/ic_resonators"
-            android:title="@string/menu_resonators" />
-        <item
-            android:id="@+id/nav_essences"
-            android:icon="@drawable/ic_essences"
-            android:title="@string/menu_essences" />
+            android:id="@+id/nav_omens"
+            android:icon="@drawable/ic_omens"
+            android:title="Omens" />
         <item
             android:id="@+id/nav_divination_cards"
             android:icon="@drawable/ic_divination_cards"
-            android:title="@string/menu_divination_cards" />
+            android:title="Divination Cards" />
         <item
-            android:id="@+id/nav_prophecies"
-            android:icon="@drawable/ic_prophecies"
-            android:title="@string/menu_prophecies" />
+            android:id="@+id/nav_artifacts"
+            android:icon="@drawable/ic_artifacts"
+            android:title="Artifacts" />
         <item
-            android:id="@+id/nav_skill_gems"
-            android:icon="@drawable/ic_skill_gems"
-            android:title="@string/menu_skill_gems" />
+            android:id="@+id/nav_oils"
+            android:icon="@drawable/ic_oils"
+            android:title="Oils" />
         <item
-            android:id="@+id/nav_base_types"
-            android:icon="@drawable/ic_base_types"
-            android:title="@string/menu_base_types" />
-        <item
-            android:id="@+id/nav_helmet_enchants"
-            android:icon="@drawable/ic_helmet_enchantments"
-            android:title="@string/menu_helmet_enchant" />
-        <item
-            android:id="@+id/nav_unique_maps"
-            android:icon="@drawable/ic_unique_maps"
-            android:title="@string/menu_unique_maps" />
-        <item
-            android:id="@+id/nav_maps"
-            android:icon="@drawable/ic_maps"
-            android:title="@string/menu_maps" />
-        <item
-            android:id="@+id/nav_unique_jewels"
-            android:icon="@drawable/ic_unique_jewels"
-            android:title="@string/menu_unique_jewels" />
-        <item
-            android:id="@+id/nav_unique_flasks"
-            android:icon="@drawable/ic_unique_flasks"
-            android:title="@string/menu_unique_flasks" />
+            android:id="@+id/nav_incubators"
+            android:icon="@drawable/ic_incubators"
+            android:title="Incubators" />
+
+        <!-- Equipment & Gems -->
         <item
             android:id="@+id/nav_unique_weapons"
             android:icon="@drawable/ic_unique_weapons"
-            android:title="@string/menu_unique_weapons" />
+            android:title="Unique Weapons" />
         <item
             android:id="@+id/nav_unique_armours"
             android:icon="@drawable/ic_unique_armours"
-            android:title="@string/menu_unique_armours" />
+            android:title="Unique Armours" />
         <item
             android:id="@+id/nav_unique_accessories"
             android:icon="@drawable/ic_unique_accessories"
-            android:title="@string/menu_unique_accessories" />
+            android:title="Unique Accessories" />
+        <item
+            android:id="@+id/nav_unique_flasks"
+            android:icon="@drawable/ic_unique_flasks"
+            android:title="Unique Flasks" />
+        <item
+            android:id="@+id/nav_unique_jewels"
+            android:icon="@drawable/ic_unique_jewels"
+            android:title="Unique Jewels" />
+        <item
+            android:id="@+id/nav_unique_relics"
+            android:icon="@drawable/ic_unique_relics"
+            android:title="Unique Relics" />
+        <item
+            android:id="@+id/nav_skill_gems"
+            android:icon="@drawable/ic_skill_gems"
+            android:title="Skill Gems" />
+        <item
+            android:id="@+id/nav_cluster_jewels"
+            android:icon="@drawable/ic_cluster_jewels"
+            android:title="Cluster Jewels" />
+
+        <!-- Atlas -->
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_maps"
+            android:title="Maps" />
+        <item
+            android:id="@+id/nav_blighted_maps"
+            android:icon="@drawable/ic_blighted_maps"
+            android:title="Blighted Maps" />
+        <item
+            android:id="@+id/nav_blight_ravaged_maps"
+            android:icon="@drawable/ic_blight_ravaged_maps"
+            android:title="Blight-ravaged Maps" />
+        <item
+            android:id="@+id/nav_scourged_maps"
+            android:icon="@drawable/ic_scourged_maps"
+            android:title="Scourged Maps" />
+        <item
+            android:id="@+id/nav_unique_maps"
+            android:icon="@drawable/ic_unique_maps"
+            android:title="Unique Maps" />
+        <item
+            android:id="@+id/nav_delirium_orbs"
+            android:icon="@drawable/ic_delirium_orbs"
+            android:title="Delirium Orbs" />
+        <item
+            android:id="@+id/nav_invitations"
+            android:icon="@drawable/ic_invitations"
+            android:title="Invitations" />
+        <item
+            android:id="@+id/nav_scarabs"
+            android:icon="@drawable/ic_scarabs"
+            android:title="Scarabs" />
+        <item
+            android:id="@+id/nav_memories"
+            android:icon="@drawable/ic_memories"
+            android:title="Memories" />
+
+        <!-- Crafting -->
+        <item
+            android:id="@+id/nav_base_types"
+            android:icon="@drawable/ic_base_types"
+            android:title="Base Types" />
+        <item
+            android:id="@+id/nav_fossils"
+            android:icon="@drawable/ic_fossils"
+            android:title="Fossils" />
+        <item
+            android:id="@+id/nav_resonators"
+            android:icon="@drawable/ic_resonators"
+            android:title="Resonators" />
         <item
             android:id="@+id/nav_beasts"
             android:icon="@drawable/ic_beasts"
-            android:title="@string/menu_beasts" />
+            android:title="Beasts" />
+        <item
+            android:id="@+id/nav_essences"
+            android:icon="@drawable/ic_essences"
+            android:title="Essences" />
         <item
             android:id="@+id/nav_vials"
             android:icon="@drawable/ic_vials"
-            android:title="@string/menu_vials" />
+            android:title="Vials" />
     </group>
-
 </menu>

@@ -25,7 +25,7 @@ import com.bluelithalo.poetrends.poe_ninja.OverviewViewModel
 
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener
-                                        , OverviewAdapter.OverviewContainer
+    , OverviewAdapter.OverviewContainer
 {
     private lateinit var poeNinjaViewModel : OverviewViewModel
 
@@ -259,7 +259,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_currency -> poeNinjaViewModel.setOverviewType(Overview.Type.CURRENCY)
             R.id.nav_fragments -> poeNinjaViewModel.setOverviewType(Overview.Type.FRAGMENT)
             R.id.nav_delirium_orbs -> poeNinjaViewModel.setOverviewType(Overview.Type.DELIRIUM_ORB)
-            R.id.nav_watchstones -> poeNinjaViewModel.setOverviewType(Overview.Type.WATCHSTONE)
             R.id.nav_oils -> poeNinjaViewModel.setOverviewType(Overview.Type.OIL)
             R.id.nav_incubators -> poeNinjaViewModel.setOverviewType(Overview.Type.INCUBATOR)
             R.id.nav_scarabs -> poeNinjaViewModel.setOverviewType(Overview.Type.SCARAB)
@@ -267,10 +266,8 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_resonators -> poeNinjaViewModel.setOverviewType(Overview.Type.RESONATOR)
             R.id.nav_essences -> poeNinjaViewModel.setOverviewType(Overview.Type.ESSENCE)
             R.id.nav_divination_cards -> poeNinjaViewModel.setOverviewType(Overview.Type.DIVINATION_CARD)
-            R.id.nav_prophecies -> poeNinjaViewModel.setOverviewType(Overview.Type.PROPHECY)
             R.id.nav_skill_gems -> poeNinjaViewModel.setOverviewType(Overview.Type.SKILL_GEM)
             R.id.nav_base_types -> poeNinjaViewModel.setOverviewType(Overview.Type.BASE_TYPE)
-            R.id.nav_helmet_enchants -> poeNinjaViewModel.setOverviewType(Overview.Type.HELMET_ENCHANT)
             R.id.nav_unique_maps -> poeNinjaViewModel.setOverviewType(Overview.Type.UNIQUE_MAP)
             R.id.nav_maps -> poeNinjaViewModel.setOverviewType(Overview.Type.MAP)
             R.id.nav_unique_jewels -> poeNinjaViewModel.setOverviewType(Overview.Type.UNIQUE_JEWEL)
